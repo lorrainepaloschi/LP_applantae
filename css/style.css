@@ -297,7 +297,10 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-
+#fh5co-header a{
+  color:#6f24be;
+  text-decoration: underline;
+}
 #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
   display: table-cell !important;
@@ -509,6 +512,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-slider {
   background: #000000;
+}
+#fh5co-slider a{
+  text-decoration: underline;
 }
 #fh5co-slider .heading h2, #fh5co-slider .heading p {
   color: #fff;
@@ -1313,6 +1319,7 @@ input[type="text"] {
   background: #46f6e2;
   color: #000;
   border: 2px solid #46f6e2;
+  margin-left: 40%;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #46f6e2 !important;
